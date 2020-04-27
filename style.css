@@ -1,0 +1,79 @@
+.head {
+    position: relative;
+    text-align: center;
+}
+
+.task1 {
+    padding: 30px;
+    position: center;
+    margin: 10px 400px;
+}
+
+.task2 {
+    padding: 30px;
+    color: black;
+    position: center;
+    margin: 10px 400px;
+}
+
+.blue {
+    background-color: aquamarine;
+    color: black
+}
+
+.example {
+    font-size: 14pt;
+    font-weight: 1000;
+    color: black
+}
+
+.text {
+    font-size: 14pt;
+}
+
+
+.textbutton {
+    display: block;
+    width: 100px;
+    height: 500px;
+}
+
+.task3 {
+    padding: 30px;
+    position: center;
+    margin: 10px 400px;
+
+}
+
+.out2 {
+    font-size: 14pt;
+    font-weight: 1000;
+    color: black
+}
+
+.out3 {
+    font-size: 14pt;
+    font-weight: 1000;
+    color: black
+}
+
+.out4 {
+    font-size: 14pt;
+    font-weight: 1000;
+    color: black
+}
+
+.task4 {
+    padding: 30px;
+    position: center;
+    margin: 10px 400px;
+}
+
+span {
+    font-size: 20px;
+    color: red;
+}
+
+img {
+    width: 100px;
+}

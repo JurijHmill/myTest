@@ -24,15 +24,13 @@ button4.onclick = function () {
 
     function searchByName(name) {
         finalArr = [];
-        for (let item in myArr) {
-            for (let [key, value] of Object.entries(myArr[item])) {
-                //console.log(value);
-                if (name == value) {
-                    finalArr.push(myArr[item]);
-                }
+        for (let [key, value] of Object.entries(myArr)) {
+            //console.log(value);
+            if (name == value.name) {
+                finalArr.push(value);
             }
-            //console.log(myArr[item]);
         }
+        //console.log(myArr[item]);
         console.log(finalArr);
         return finalArr;
 
